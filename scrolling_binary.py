@@ -46,11 +46,11 @@ def get_number_as_binary_string(num) -> str:
     return bnum
 
 
-def get_with_x_percent_prob(x) -> bool:
+def get_with_x_percent_prob(x_num) -> bool:
     """
     Returns True x percent of the time. x is a number between 0 and 100
     """
-    return random.randint(1, 100) <= x
+    return random.randint(1, 100) <= x_num
 
 
 def get_random_color() -> str:
